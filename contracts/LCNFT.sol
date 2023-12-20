@@ -80,14 +80,14 @@ contract LCNFT is ERC721, Ownable {
     function getTokenURIHistory(uint256 tokenId) public view returns (string[] memory) {
         require(ownerOf(tokenId) != address(0), "Query for nonexistent token");
 
-        uint256 historyLength = _ipfsHashHistory[tokenId].length;
-        string[] memory uriHistory = new string[](historyLength);
+        //uint256 historyLength = _ipfsHashHistory[tokenId].length;
+        //string[] memory uriHistory = new string[](historyLength);
 
-        for (uint256 i = 0; i < historyLength; i++) {
-            uriHistory[i] = string(abi.encodePacked(baseTokenURI, _ipfsHashHistory[tokenId][i]));
-        }
+        //for (uint256 i = 0; i < historyLength; i++) {
+            //uriHistory[i] = string(abi.encodePacked(baseTokenURI, _ipfsHashHistory[tokenId][i]));
+        //}
 
-        return uriHistory;
+        return _ipfsHashHistory[tokenId];
     }
 
     function addToWhitelist(uint256 tokenId, address user) public onlyOwner {
