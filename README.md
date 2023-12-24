@@ -3,7 +3,7 @@
   <br>
   Urban Mining NFT <br>
   - UMNFT - <br>
-  Revit PlugIn
+  Smart Contract
 </h1>
 
 <div align="center"></div>
