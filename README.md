@@ -3,6 +3,7 @@
   <br>
   Urban Mining NFT <br>
   - UMNFT - <br>
+  PART 02 <br>
   Smart Contract
 </h1>
 
