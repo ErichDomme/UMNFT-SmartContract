@@ -20,26 +20,26 @@ In this phase, it is decided what functions the Smart Contract should have and h
 The UMNFT Smart Contract is written in Solidity, a language for Ethereum Smart Contracts, and uses OpenZeppelin's ERC721 standard implementation, making it an NFT Smart Contract. The contract includes several functions and structures, which are explained below.
 
 ### Constructor and Basic Properties
-Constructor:
-Upon deployment of the Smart Contract, the constructor is called. Here, the NFT's name is set as "UrbanMiningNFT" and the symbol as "UMNFT". The contract owner is defined as the person who deploys the contract.
-Version:
-The Smart Contract has a fixed version, set here as "1.0.0".
-Base Token URI:
-The base URL for the tokens, set here to "ipfs://", indicating that the NFT metadata is stored on the InterPlanetary File System (IPFS).
+Constructor:<br>
+Upon deployment of the Smart Contract, the constructor is called. Here, the NFT's name is set as "UrbanMiningNFT" and the symbol as "UMNFT". The contract owner is defined as the person who deploys the contract.<br>
+Version:<br>
+The Smart Contract has a fixed version, set here as "1.0.0".<br>
+Base Token URI:<br>
+The base URL for the tokens, set here to "ipfs://", indicating that the NFT metadata is stored on the InterPlanetary File System (IPFS).<br>
 
 ### Mappings and Variables
-_tokenIds:
-A counter for the token IDs to uniquely identify each NFT.
-_tokenNames:
-A mapping of token ID to the name of the token.
-_tokenURIs:
-A mapping of token ID to its IPFS URL.
-_ipfsHashHistory:
-Stores the history of IPFS hashes for each token.
-_updateWhitelist:
-A two-tier mapping structure that specifies which addresses are authorized to update the token URI.
-_whitelistedAddresses:
-A list of addresses that have been added to the update whitelist for each token.
+_tokenIds:<br>
+A counter for the token IDs to uniquely identify each NFT.<br>
+_tokenNames:<br>
+A mapping of token ID to the name of the token.<br>
+_tokenURIs:<br>
+A mapping of token ID to its IPFS URL.<br>
+_ipfsHashHistory:<br>
+Stores the history of IPFS hashes for each token.<br>
+_updateWhitelist:<br>
+A two-tier mapping structure that specifies which addresses are authorized to update the token URI.<br>
+_whitelistedAddresses:<br>
+A list of addresses that have been added to the update whitelist for each token.<br>
 
 ### Functions
 mintNFT:<br>
