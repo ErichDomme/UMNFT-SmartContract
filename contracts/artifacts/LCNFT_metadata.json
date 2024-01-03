@@ -842,7 +842,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/LCNFT.sol": "LCNFT"
+			"contracts/UMNFT.sol": "LCNFT"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -960,12 +960,12 @@
 				"dweb:/ipfs/QmVBEei6aTnvYNZp2CHYVNKyZS4q1KkjANfY39WVXZXVoT"
 			]
 		},
-		"contracts/LCNFT.sol": {
-			"keccak256": "0x6c1c92586fc787bde18562a842ec8a556a7b6809860a8c9143b831f5c6f10381",
+		"contracts/UMNFT.sol": {
+			"keccak256": "0xa1576916abf5b746cea1b150b339bfd30fba1f6e60842eac935e69db91c80a5d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1ffa73962b94dd4137c01da59957e28a7d23b7c47251d3bf23a54e1b06739402",
-				"dweb:/ipfs/QmTYViCAkfCGppbAZzvpRLYGZTrDyjDzFRMELhakbndW5f"
+				"bzz-raw://332ea32da455ef73e4390a023fb8082506e243451eb60ec19c4cff246442aec2",
+				"dweb:/ipfs/QmVDTaduZM5Rm1RiY1UqbZmwVCVfPEfu1F2Rgp5FA55nuq"
 			]
 		}
 	},
