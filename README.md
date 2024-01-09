@@ -16,7 +16,7 @@ First examiner:<br>
 Univ.-Prof. Dr. Jakob Beetz, Design Computation | CAAD<br>
 Second examiner:<br>
 Jun.Prof. Dr.-Ing. Linda Hildebrand, Cycle-Oriented Construction<br>
-This Smart Contract is part 2 of 3. </p>
+This Smart Contract is part 2 of 3.</p>
 
 ## Excerpt from the Master's thesis
 ### 3.2 Smart Contract
