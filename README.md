@@ -74,7 +74,7 @@ In summary, this smart contract enables the creation, management and tracking of
 In summary, this smart contract enables the creation, management and tracking of NFTs that are based on the Ethereum blockchain and whose metadata is stored on IPFS. It provides functions for minting NFTs, updating their information, managing access rights and tracking their history.
 
 ## Project Status
-<span style="color:green">**Version 0.0.1 published!**</span>
+<span style="color:green">**Version 1.0.0 published!**</span>
 <!-- _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.-->
 
 ## Acknowledgements
